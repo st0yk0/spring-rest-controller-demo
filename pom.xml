@@ -30,6 +30,34 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.ibm.watson/language-translator -->
+        <dependency>
+            <groupId>com.ibm.watson</groupId>
+            <artifactId>language-translator</artifactId>
+            <version>8.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>javazoom</groupId>
+            <artifactId>jl</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/jl1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>java-google-translate-text-to-speech</groupId>
+            <artifactId>jgt</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/gtranslateapi-1.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-translate</artifactId>
+            <version>v2-rev48-1.22.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
